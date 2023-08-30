@@ -1,0 +1,41 @@
+__________________________________________________________________________
+Softwares to install
+---------------------------------------------------------------------------
+Notepad ++ ✅
+JDK 8, 11✅ [Set the environment variables (https://youtu.be/IJ-PJbvJBGs)]
+Eclipse Java Enterprise Edition✅
+
+
+
+__________________________________________________________________________
+Running our 1st Java code
+---------------------------------------------------------------------------
+
+Compilation
+-----(human readable data) Main.java ----(compilation)----javac Main.java--> Main.class (intermediate code/ byte code/ class file)
+
+Execution
+Main.class ----java Main--> o/p
+
+
+PS C:\Users\suman\OneDrive\Desktop> javac .\Main.java
+PS C:\Users\suman\OneDrive\Desktop> java Main
+Hello World
+PS C:\Users\suman\OneDrive\Desktop>
+
+
+__________________________________________________________________________
+packages in Java
+---------------------------------------------------------------------------
+its a folder structure useed to keep Java source files
+
+~~~~Naming convention~~~~
+com.java.basics
+google.com
+com.google.gmail.sendmail
+
+
+com.java.basics -->Main.java
+com > java > basics --->Main.java
+
+
