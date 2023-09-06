@@ -38,4 +38,10 @@ com.google.gmail.sendmail
 com.java.basics -->Main.java
 com > java > basics --->Main.java
 
+__________________________________________________________________________
+OOPS
+---------------------------------------------------------------------------
+
+Java is a OOPS language
+So today will see OOPS 
 
