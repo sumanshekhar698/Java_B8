@@ -7,7 +7,8 @@ public class Main {
 		int x = 8;// local variable
 		System.out.println(x);
 
-		Car car1 = new Car();
+		Car car1 = new Car();// instantiation/ object creation
+//		Car car1; refrence/instance/object variable
 		System.out.println(car1.mielage);// 0.0
 		System.out.println(car1.color);// null
 
@@ -17,8 +18,10 @@ public class Main {
 
 		System.out.println(car1.mielage);// 14.4
 		System.out.println(car1.color);// Red
+
+		// 9006567388
 		
-		//9006567388
+		car1.commute();
 
 	}
 

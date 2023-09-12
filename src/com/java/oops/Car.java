@@ -8,7 +8,7 @@ public class Car {
 	String model;//null
 	float mielage;//0.0
 
-	void ride() {// function/methods
+	void ride() {// function/methods ✅
 		System.out.println("Car is Riding");
 	}
 
