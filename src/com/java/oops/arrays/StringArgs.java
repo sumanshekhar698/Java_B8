@@ -11,9 +11,9 @@ public class StringArgs {
 			System.out.println(suman[i]);
 		}
 
-		test("suman", 5, 2, 543, 45, 64,77);
-		
-		//Bubble Sort
+		test("suman", 5, 2, 543, 45, 64, 77);
+
+		// Bubble Sort
 	}
 
 	static void test(String y, int... x) {// var args
