@@ -1,5 +1,7 @@
 package com.java.oops.arrays.two_dimensional;
 
+import com.java.oops.static_concept.TwoDArrayUtilityClasses;
+
 public class MatrixAddition {
 
 	public static void main(String[] args) {
@@ -23,13 +25,14 @@ public class MatrixAddition {
 
 				}
 			}
-
-			for (int i = 0; i < result.length; i++) {// all the 1D arrays
-				for (int j = 0; j < result[i].length; j++) {
-					System.out.print(result[i][j] + " ");
-				}
-				System.out.println();
-			}
+//
+//			for (int i = 0; i < result.length; i++) {// all the 1D arrays
+//				for (int j = 0; j < result[i].length; j++) {
+//					System.out.print(result[i][j] + " ");
+//				}
+//				System.out.println();
+//			}
+			TwoDArrayUtilityClasses.print2DArray(result);
 
 		} else {
 			System.out.println("Not elligible for addition");
