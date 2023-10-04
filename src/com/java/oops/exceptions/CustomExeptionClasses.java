@@ -15,10 +15,9 @@ public class CustomExeptionClasses {
 			ans = checkVotingEligilblity(age);
 			System.out.println(ans);
 		} catch (InvalidVotingAge e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 	}
 
 	private static boolean checkVotingEligilblity(int age) throws InvalidVotingAge {
