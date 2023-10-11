@@ -25,9 +25,11 @@ public class President {// Singelton Pattern
 		this.country = country;
 	}
 
-	static President getInstance(String name, int age, String country) {
-		if (pres == null)
+	synchronized static President getInstance(String name, int age, String country) {
+		if (pres == null) {
+
 			pres = new President(name, age, country);
+		}
 		return pres;
 
 	}
